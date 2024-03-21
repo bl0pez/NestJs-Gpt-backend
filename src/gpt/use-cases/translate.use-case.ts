@@ -22,6 +22,6 @@ export const translateUseCase = async (
   });
 
   return {
-    message: response.choices[0].message,
+    message: response.choices[0].message.content,
   };
 };
